@@ -1,6 +1,8 @@
 Filename = input('Input the Filename:')
 extention = Filename.split('.')[-1]
 
+ # To define the extention to language name dictionary
+    
 Languagename = {
 
     "py": "Python",
@@ -52,5 +54,5 @@ if extention in Languagename :
 else :
     print("Unkown FileType")
 
-    # To define the extention to language name dictionary
+   
 
